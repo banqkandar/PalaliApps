@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#09203f</color>
+    <color name="colorPrimaryDark">#001736</color>
+    <color name="colorPrimaryLight">#e8e8e8</color>
+    <color name="colorAccent">#f8f8f8</color>
+
+    <color name="colorUtama">#09203f</color>
+    <color name="colorKedua">#7aabd1</color>
+    <color name="background">#e8e8e8</color>
+
+</resources>

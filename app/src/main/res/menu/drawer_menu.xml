@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_peringatan"
+            android:icon="@drawable/ic_warning"
+            android:title="Rambu Peringatan" />
+        <item
+            android:id="@+id/nav_larangan"
+            android:icon="@drawable/ic_larangan"
+            android:title="Rambu Larangan" />
+        <item
+            android:id="@+id/nav_perintah"
+            android:icon="@drawable/ic_perintah"
+            android:title="Rambu Perintah" />
+        <item
+            android:id="@+id/nav_uu"
+            android:icon="@drawable/ic_uu"
+            android:title="UU Tentang Rambu Lalu Lintas" />
+    </group>
+</menu>

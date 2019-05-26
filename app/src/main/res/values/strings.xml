@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_nama">PALALI</string>
+    <string name="title_activity_detail">Detail UU dan Pasal</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="home">home</string>
+    <string name="uu">uu rambu</string>
+
+    <string name="api_key">BOPgLWag3kL96zLsa0hi0FVZvAgSYYJNloI6csWb9sl2</string>
+</resources>

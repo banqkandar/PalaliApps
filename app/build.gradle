@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.example.iskandar.projectpalali"
+        minSdkVersion 20
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable false
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.1.0-alpha01'
+    implementation 'com.google.android.material:material:1.1.0-alpha02'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    //material modern
+    implementation 'com.google.android.material:material:1.0.0'
+    //circleimageview
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    //reyclerview
+    implementation 'androidx.recyclerview:recyclerview:1.1.0-alpha01'
+    //cardview
+    implementation 'androidx.cardview:cardview:1.0.0'
+    //glide
+    implementation 'com.github.bumptech.glide:glide:4.4.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.4.0'
+    //searching
+    implementation 'com.klinkerapps:searchview:2.2.5'
+    
+    //library picasso
+    implementation 'com.ibm.watson.developer_cloud:visual-recognition:3.9.1'
+    implementation 'com.ibm.watson.developer_cloud:android-sdk:0.4.2'
+//    implementation 'com.ibm.watson.developer_cloud:android-sdk:0.5.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+}
